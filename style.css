@@ -1,0 +1,64 @@
+body{
+    background-color: #393E46;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Lobster";
+    color: #4ECCA3;
+    text-shadow: 5px 0px #232931;
+    margin-bottom: 0px;
+}
+
+#result{
+    color: rgb(229, 173, 32);
+}
+
+.resultImg{
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+
+.img{
+    width: 80%;
+}
+
+p{
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+
+.playBtn{
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px black;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.playBtn:hover{
+    background-color: #232931;
+    color: white;
+}
+
+.playBtn:active{
+    transform: translateY(4px);
+    box-shadow: 0px 1px black;
+}
